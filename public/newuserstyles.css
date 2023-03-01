@@ -1,0 +1,101 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #EAEAEA;
+}
+
+.container-fluid{
+    padding: 0% 5%;
+}
+
+.logo {
+    height: 45px;
+    margin: 0 20px;
+}
+
+.navbar {
+    margin-bottom: 25px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+.nav-item {
+    text-align: center;
+    padding-right: 10px;
+}
+
+.form-control {
+    min-width: 50px;
+}
+
+.d-flex {
+    margin-right: 20px;
+}
+
+.form-container {
+    border: 2px solid;
+    margin: 25px 30px;
+    background-color: white;
+}
+
+.header {
+    background-color: #BAD1C2;
+    text-align: center;
+    border: 2px solid;
+    border-color: antiquewhite;
+}
+
+form {
+    /* background-color: white; */
+    margin: 0px 50px;
+}
+
+.name {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.Gender {
+    padding: 30px 0px;
+}
+
+#street {
+    margin-left: 30px;
+    width: 60%;
+}
+
+#city {
+    margin-left: 94px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+#state {
+    margin-left: 94px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+#pincode {
+    margin-left: 94px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+#country {
+    margin-left: 94px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.dob-container {
+    padding-bottom: 20px;
+}

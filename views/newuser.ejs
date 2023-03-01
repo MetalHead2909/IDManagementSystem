@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User - Sign UP </title>
+    <link rel="shortcut icon" href="../icons/favicon.ico">
+
+    <!-- CSS stylesheet & Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/newuserstyles.css">
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    
+</head>
+
+<body style=" background-image: url('https://images.unsplash.com/photo-1580398562556-d33329a0f29b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+background-repeat: no-repeat;  background-attachment: fixed;
+  background-size: cover;">
+
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #FCE700;">
+        <a class="navbar-brand col-7" action="/app1.js/homepage" method="post">
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/128/2634/2634109.png" alt="ID">ID Management
+            System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <form action="/app1.js/homepage" method="post">
+                        <button type="submit" class="btn btn-warning">
+                            <a class="nav-link active" aria-current="page">Home</a>
+                        </button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-3" type="team-support" placeholder="Team Support"
+                    aria-label="Team Support">
+                <button class="btn btn-outline-dark" type="submit">Send</button>
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="form-container">
+
+            <div class="header">
+                <h1>Sign Up!</h1>
+            </div>
+
+            <form action="/app1.js" method="post">
+
+                <div class="name row">
+                    <div class="col-lg-4 col-md-4">
+                        <label for="fname">First name:</label>
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="fname" name="fname">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <label for="midname">Middle name:</label>
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="midname" name="midname">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <label for="lname">Last name:</label>
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="lname" name="lname">
+                    </div>
+                    <br>
+                </div>
+
+                <div class="Gender">
+                    <label for="gender">Select your gender</label>
+                    <select style="background-color: rgba(0, 0, 0, 0.2);" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">other</option>
+                    </select>
+                    <br>
+                </div>
+
+                <div class="address">
+                    <label>Address:</label>
+                    <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="street" name="street" placeholder="Street">
+                    <br>
+                    <div class="address-2">
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="city" name="city" placeholder="City">
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="state" name="state" placeholder="State">
+                    </div>
+
+                    <div class="address-3">
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="pincode" name="pincode" placeholder="Pincode">
+                        <input style="background-color: rgba(0, 0, 0, 0.2);" type="text" id="country" name="country" placeholder="Country">
+                    </div>
+                    <br>
+                </div>
+
+                <div class="email-container">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input style="background-color: rgba(0, 0, 0, 0.2);" type="email" class="form-control input-box" id="exampleInputEmail1"
+                        placeholder="eg. abcd1234@gmail.com" name="email">
+                    <br>
+                </div>
+
+                <div class="password-container">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input style="background-color: rgba(0, 0, 0, 0.2);" type="password" class="form-control input-box" id="exampleInputPassword1"
+                        placeholder="* * * * * * * *" name="password">
+                    <br>
+                </div>
+
+                <div class="dob-container">
+                    <label for="dob">Date of Birth:</label>
+                    <input style="background-color: rgba(0, 0, 0, 0.2);" type="date" id="dob" name="dob">
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="margin-bottom: 20px;">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

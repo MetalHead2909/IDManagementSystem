@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EAEAEA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* navbar */
+.logo {
+  height: 45px;
+  margin: 0 20px;
+}
+
+.navbar {
+  margin-bottom: 25px;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.nav-item {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.form-control {
+  min-width: 50px;
+}
+
+.d-flex {
+  margin-right: 20px;
+}
+
+/* Login Section */
+.login-img {
+  position: absolute;
+  height: 180px;
+  margin: 50px;
+}
+
+.fill-form {
+  margin-left: 300px;
+  margin-right: 350px;
+}
+
+.card-header {
+  background-color: #BAD1C2;
+}
+
+.card-footer {
+  background-color: #FFF8EA;
+}
+
+.form {
+  margin: 50px;
+}
+
+.new-user {
+  color: #2146C7;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.new-user:hover {
+  color: #5DA7DB;
+}
+
+.id-img {
+  position: absolute;
+  top: 120px;
+  height: 200px;
+  right: 100px;
+}
+
+.developer {
+  float: left;
+  margin: 0 20px;
+}
+
+.copywrite {
+  color: #379237;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* mobile view */
+@media (max-width: 1000px) {
+  body {
+    text-align: center;
+  }
+
+  .login-img {
+    position: relative;
+    margin: 10px;
+  }
+
+  .id-img {
+    position: relative;
+    height: 80px;
+    margin-bottom: 120px;
+  }
+
+  .form-label {
+    letter-spacing: normal;
+  }
+
+  .fill-form {
+    margin: 0;
+  }
+
+  .developer {
+    text-align: center;
+    float: none;
+  }
+}
